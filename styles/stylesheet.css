@@ -1,33 +1,39 @@
-
-nav{
-    
-}
-
 a{
     color: black;
     font-size: 20px;
-    font: bold;
+    font-weight: bold;
     text-decoration: none;
 }
 
+body {
+    background-color: blanchedalmond;
+}
 nav ul{
     list-style-type: none;
+    background-color: gold;
 }
 
 nav ul li{
-    display: inline;
-    
+    display: inline; 
     color: black;
-    background-color: gold;
-    
     padding-right: 15px;
 }
+table{
+    margin: 0 auto 0 auto;
+}
 
-a:hover {
+th, td{
+    text-align: left;
+    width: 190px;
+    padding 10px;
+    border: 1px solid black;
+}
+
+a:hover{
     color: red;
 }
 
-.container {
+.container{
     position: relative;
     text-align: center;
     color: white;
@@ -37,13 +43,13 @@ a:hover {
     position: absolute; 
     bottom:8px; 
     right:16px;
-    font-size: 60px;
+    font-size: 75px;
 }
 
-.main-nav {
+.main-nav{
     text-align: right;
 }
 
-.foot-nav {
+.foot-nav{
     text-align: center;
 }
