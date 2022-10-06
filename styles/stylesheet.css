@@ -7,7 +7,7 @@ a{
     color: black;
     font-size: 20px;
     font: bold;
-    
+    text-decoration: none;
 }
 
 nav ul{
@@ -16,8 +16,6 @@ nav ul{
 
 nav ul li{
     display: inline;
-
-    
     
     color: black;
     background-color: gold;
@@ -25,13 +23,26 @@ nav ul li{
     padding-right: 15px;
 }
 
-a:hover{
+a:hover {
     color: red;
 }
-.main-nav{
 
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
 }
 
-.foot-nav{
+.br{
+    position: absolute; 
+    bottom:8px; 
+    right:16px;
+    font-size: 60px;
+}
+.main-nav {
+    text-align: right;
+}
 
+.foot-nav {
+    text-align: center;
 }
